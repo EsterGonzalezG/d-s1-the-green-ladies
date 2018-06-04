@@ -1,0 +1,287 @@
+html{
+  box-sizing: border-box;
+}
+body{/*quitamos magenes del body*/
+  width: 100%;/*ancho máximo de la caja*/
+  margin: 0px;
+}
+/*Header*/
+.fixedHeader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.header1{
+  height: 60px;/*altura especificada*/
+  background-color: rgba(9, 157, 141, 0.7);;/*color de fondo especifico*/
+  display: flex;/*usamos el display en flex para poder usar flexbox*/
+  justify-content: center;/*para que el item este en el centro del eje*/
+  align-items: center;/*alinea elementos flex a lo largo del eje transversal*/
+}
+h1{/*especificamos el color de la fuente, la fuente y el tamaño */
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.flex-list{
+  height: 45px;/*le restamos el padding de item y el del flex-list*/
+  background-color: rgba(58, 231, 202, 0.7);/*color de fondo*/
+  list-style: none;/*eliminamos los estilos de la ul*/
+  display: flex;/*modo flexbox*/
+  margin:0px;/*eliminamos el margen para que queden pegadas las dos cajas*/
+  padding:0;
+  align-items: center;
+  justify-content: center;
+}
+.item{
+  padding: 5px 5px 5px 5px;
+  text-transform: uppercase;
+}
+.a-header:link{/*quitamos el subrayado del enlace y ponemos color de la fuente, la fuente y el tamaño*/
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+.a-header:visited{/*cuando el enlace ha sido clikado o ha sido visitado especificamos el color de la fuente, la fuente y el tamaño */
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+/*Sub menu desplegable con los miembros del equipo*/
+.menu-sub ul ul{
+ display:none;
+position:absolute;
+top:100%;
+left:45%;
+background-color:rgba(58, 231, 202);
+padding:0;
+list-style: none;
+}
+.menu-sub ul ul li {
+float:none;
+width:100%;
+list-style: none;
+color: white;
+background-color:rgba(58, 231, 202);
+}
+.menu-sub ul ul a {
+line-height:200%;
+padding:10px 15px;
+width: 100%;
+}
+.menu-sub ul li:hover > ul {
+display:block;
+}
+.menu-sub  ul ul a:link{
+ background-color:rgba(58, 231, 202, 0.7);
+   text-decoration: none;
+     color: #FFFFFF;
+}
+.menu-sub  ul ul a:visited{
+   background-color:rgba(58, 231, 202, 0.7);
+   text-decoration: none;
+     color: #FFFFFF;
+}
+/*fin menu desplegable*/
+/*Contenido principal*/
+.headerImage{
+  height:421px;
+  background-image: url("4cats.jpg");
+  background-size: cover;
+  position: relative;
+}
+.container {
+  padding: 0;
+  margin:0;
+}
+.claimContainer{
+  display: flex;
+  position: absolute;
+  bottom: -13%;
+  justify-content: center;
+  width: 100%;
+}
+.claim{
+  background-color:white;/*rgba(255, 255, 255, 0.7)*/
+  margin: 30px;
+  padding:15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+.titulo{
+  color: #099D8D;
+  font-style: 'Rubik', sans-serif;
+  font-size: 24px;
+  line: 45px;
+}
+.container{
+  color:#54585A;
+  font-style: 'Open Sans', sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+}
+.titles-section {
+  color: #099d8d;
+  font-size: 22px;
+  font-family: 'Rubik', sans-serif;
+  margin-top:15px;
+  text-transform: uppercase;
+
+}
+.qualities-section {
+  background: #f1f1f1;
+  padding: 30px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+}
+.paragraph {
+  font-size: 16px;
+  color: #54585a;
+}
+.qualities-section-items {
+  text-align: center;
+  margin-bottom: 30px
+}
+.qualities-section-triangle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #ffffff;
+}
+/*contenido para describir cada una del equipo*/
+.profile{
+  padding: 60px 60px 0px 60px;
+}
+.photo {
+  width: 180px;
+  height: 180px;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: 30%;
+  display: block;
+}
+.photo-img {
+  height: 100%;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 4%;
+  padding: 5px;
+  background: #EEEAEB;
+  height: 170px;
+  width: 170px;
+}
+.paragraph {
+  margin: 15px;
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  color: #54585a;
+}
+.profile {
+  margin: 0 auto;
+  text-align: center;
+}
+.name {
+  margin: 0px 0px 30px 0;
+  color: #099D8D;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.first-name {
+  margin: 15px 0px 0px 0px;
+  color: #000000;
+  font-size: 20px;
+  font-family: 'open sans', sans-serif;
+}
+.list-rrhh {
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+.list-item-rrhh {
+  list-style: none;
+}
+.list-item-rrhh::before  {
+  content: "·";
+  color: #099D8D;
+  margin: 0 10px;
+}
+.list-item-rrhh:first-child::before{
+  content: initial;
+}
+.rrss:visited {
+  color: #099D8D;
+}
+.rrss:link {
+  color: #099D8D;
+}
+/*Footer*/
+.pie{
+  margin:0;
+  text-align: center;
+}
+hr{
+  color:#85929E;
+  margin: 0;
+  padding: 0;
+}
+.p-footer{
+  font-family: 'Rubik', sans-serif;
+  color:#BDC3C7;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.flex-list-footer{
+  padding: 0;
+  list-style: none;
+}
+.item-footer{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.a-footer:link{
+  text-decoration: none;
+  color:#85929E;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.a-footer:visited{
+  text-decoration: none;
+  color:#85929E;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.logo-footer{
+  width: 115.9px;
+  height: 45px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}

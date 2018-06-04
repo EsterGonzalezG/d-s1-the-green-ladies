@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>The Green Ladies</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik:500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylescontacto.css">
+</head>
+<body>
+  <header>
+    <div class="fixedHeader">
+    <span class="header1">
+        <h1>The green ladies</h1>
+      </span>
+      <nav class="menu-sub">
+        <ul class="flex-list">
+          <li class="item" ><a class="a-header" href="index.html#equipo"  title="Ir a Equipo">Equipo</a></li>
+          <li class="item" ><a class="a-header" href="index.html#quienes"  title="Ir a Quienes somos">Quienes somos</a>
+            <ul>
+              <li><a href="#estefania">Estefania Salgado</a></li>
+              <li><a href="#irene">Irene Ordóñez</a></li>
+              <li><a href="#ester">Ester González</a></li>
+              <li><a href="#sandra">Sandra García</a></li>
+            </ul>
+          </li>
+          <li class="item" ><a class="a-header" href="#contacto" title="Ir a Contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+      <div id="contacto"></div>
+    <div class="headerImage"></div>
+    <section>
+      <div class="container">
+        <h2 class="titles-section" >Contacto</h2>
+        <p class="explicacion">Rellena el formulario que encontrarás a continuación y estaremos encantadas de responderte lo antes posible<br>¡Gracias!</br></p>
+        <p class="frase">Todos los campos marcados con <text class="asterisco">*</text> son obligatorios.</p>
+      </div>
+    </section>
+    <section>
+      <form class="formulario" action="/my-handling-form-page" method="post">
+        <div>
+          <label for="name">Nombre completo<text class="asterisco">*</text></label><input type="text" name="nombre"
+          placeholder="Nombre:"/>
+        </div>
+        <div>
+          <label for="mail">Email<text class="asterisco">*</text></label>
+          <input class="email" type="text" name="mail"
+          placeholder="nombre.apellidos@mail.com:"/>
+        </div>
+        <div>
+          <label for="telephon">Teléfono</label>
+          <input type="text" name="telefono"
+          placeholder="Ej: 123456789:"/>
+        </div>
+        <div>
+          <label for="msg">Mensaje<text class="asterisco">*</text></label>
+          <textarea id="msg" rows="5" cols="29">¿Qué necesitas?</textarea>
+        </div>
+        <div>
+          <button class="button" type="submit">ENVIAR</button>
+        </div>
+    </form>
+  </section>
+</main>
+<footer class="pie">
+  <hr>
+  <p class="p-footer">The green ladies &copy;2018</p>
+  <nav>
+    <ul class="flex-list-footer">
+      <li class="item-footer" ><a class="a-footer" href="index.html#equipo" title="Ir a Equipo">Equipo</a></li>
+      <li class="item-footer" ><a class="a-footer" href="index.html#quienes" title="Ir a Quienes somos">Quienes somos</a></li>
+      <li class="item-footer" ><a class="a-footer" href="#contacto" title="Ir a Contacto">Contacto</a></li>
+    </ul>
+  </nav>
+  <a href="http://www.adalab.es" target="_blank"><img class="logo-footer" src="logo_adalab_80px.png" alt="Logo de empresa social Adalab"></a>
+</footer>
+</body>
+</html>
