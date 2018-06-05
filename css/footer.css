@@ -1,0 +1,9 @@
+@media all and (min-width:768px) {
+.pie {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+
+}
+}
