@@ -6,6 +6,7 @@ body{/*quitamos magenes del body*/
   margin: 0px;
 }
 /*Header*/
+
 .fixedHeader{
   position: fixed;
   top: 0;

@@ -1,0 +1,23 @@
+
+
+@media all and (min-width:768px){
+  html{
+    box-sizing: border-box;
+  }
+  body{/*quitamos magenes del body*/
+    width: 100%;/*ancho máximo de la caja*/
+    margin: 0px;
+  }
+  .fixedHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(9, 157, 141);
+    padding: 0 30px;
+    box-sizing: border-box;
+
+  }
+  .flex-list{
+    background-color: rgba(9, 157, 141);
+  }
+}
