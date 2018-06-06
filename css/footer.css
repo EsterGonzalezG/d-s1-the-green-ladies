@@ -1,9 +1,28 @@
 @media all and (min-width:768px) {
 .pie {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-align-items: center;
+position: relative;
+margin: 0 20px;
+}
+.p-footer{
+text-align: left;
+top:30px;
+margin-left: 30px;
+}
+
+.nav-footer{
+position: absolute;
+left:85%;
+top:25px;
+text-align: right;
 
 }
+.item-footer{
+padding-bottom: 10px;
+}
+.logo-footer{
+margin: 15px 20px 60px;
+}
+
+
+
 }
