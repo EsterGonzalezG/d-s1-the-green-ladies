@@ -91,7 +91,7 @@ display:block;
 /*Contenido principal*/
 .headerImage{
 height:300px;
-background-image: url("4cats.jpg");
+background-image: url("../fotos/4cats.jpg");
 background-size: cover;
 position: relative;
 }
