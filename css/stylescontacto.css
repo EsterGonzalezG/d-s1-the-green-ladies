@@ -178,6 +178,11 @@ position: relative;
     height: 45px;
     width: 100%;
    }
+.form-width {
+    width: 100%;
+    max-width: 442px;
+    margin: 0 auto;
+  }
 /*Footer*/
 .pie{
   margin:0;
