@@ -62,6 +62,7 @@ left:45%;
 background-color:rgba(58, 231, 202);
 padding:0;
 list-style: none;
+font-size: 14px;
 }
 .menu-sub ul ul li {
 float:none;
@@ -290,7 +291,7 @@ hr{
   font-size: 16px;
   text-transform: uppercase;
 }
-.logo-footer{
+.logo-footer1{
   width: 115.9px;
   height: 45px;
   margin-top: 30px;

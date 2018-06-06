@@ -61,6 +61,7 @@ left:45%;
 background-color:rgba(58, 231, 202);
 padding:0;
 list-style: none;
+font-size: 14px;
 }
 .menu-sub ul ul li {
 float:none;
@@ -177,6 +178,11 @@ position: relative;
     height: 45px;
     width: 100%;
    }
+.form-width {
+    width: 100%;
+    max-width: 442px;
+    margin: 0 auto;
+  }
 /*Footer*/
 .pie{
   margin:0;
@@ -217,7 +223,7 @@ padding: 0;
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
 }
-.logo-footer{
+.logo-footer1{
 width: 115.9px;
 height: 45px;
 margin-top: 30px;
