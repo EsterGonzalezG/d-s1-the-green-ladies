@@ -169,6 +169,11 @@ display:block;
   border-top: 20px solid #ffffff;
 }
 /*contenido para describir cada una del equipo*/
+/*cajas descripcion individual - sandra*/
+.member{
+  display: flex;
+}
+/*cajas descripcion individual*/
 .profile{
   padding: 60px 60px 0px 60px;
 }
@@ -178,7 +183,7 @@ display:block;
   padding: 0;
   margin: 0 auto;
   border-radius: 30%;
-  display: block;
+
 }
 .photo-img {
   height: 100%;
@@ -206,6 +211,7 @@ display:block;
   font-family: 'Rubik', sans-serif;
   font-size: 24px;
   text-transform: uppercase;
+  text-align: center;
 }
 .first-name {
   margin: 15px 0px 0px 0px;
