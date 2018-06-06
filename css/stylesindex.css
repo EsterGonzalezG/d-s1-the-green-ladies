@@ -6,6 +6,7 @@ body{/*quitamos magenes del body*/
   margin: 0px;
 }
 /*Header*/
+
 .fixedHeader{
   position: fixed;
   top: 0;
@@ -91,7 +92,7 @@ display:block;
 /*Contenido principal*/
 .headerImage{
   height:421px;
-  background-image: url("4cats.jpg");
+  background-image: url("../fotos/4cats.jpg");
   background-size: cover;
   position: relative;
 }
