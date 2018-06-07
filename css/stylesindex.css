@@ -175,7 +175,6 @@ display:block;
   display: flex;
   padding: 60px 60px 0px 60px;
   flex-direction: column;
-
 }
 .member__avatar{
   width: 180px;
@@ -211,7 +210,7 @@ display:block;
   width: 170px;
 }
 .name {
-  margin: 0px 0px 30px 0;
+  margin: 30px 0px 30px 0;
   color: #099D8D;
   font-family: 'Rubik', sans-serif;
   font-size: 24px;
