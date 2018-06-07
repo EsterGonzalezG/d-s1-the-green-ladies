@@ -130,7 +130,7 @@ display:block;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   margin: 0px;
 }
 .titles-section {
@@ -141,6 +141,18 @@ display:block;
   text-transform: uppercase;
 
 }
+@media all and (min-width:768px){
+  .container{
+  max-width: 601px;
+margin: 0 auto;
+padding: 45px 0 60px;
+
+
+  }
+
+}
+
+
 .qualities-section {
   background: #f1f1f1;
   padding: 30px 15px 15px 15px;
@@ -299,8 +311,4 @@ hr{
   height: 45px;
   margin-top: 30px;
   margin-bottom: 45px;
-}
-
-@@media query {
-
 }
