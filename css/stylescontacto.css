@@ -178,7 +178,7 @@ position: relative;
     height: 45px;
     width: 100%;
    }
-.form-width {
+.form-width { /*le decimos que  esté siempre al 100% pero que nunca pase de 442px y nos ahorramos una media query*/
     width: 100%;
     max-width: 442px;
     margin: 0 auto;
