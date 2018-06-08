@@ -6,33 +6,40 @@ body{/*quitamos margenes del body*/
   margin: 0px;
 }
 @media all and (min-width: 768px) {
-}
+  .qualities-section {
+    display: flex;
+    flex-direction: row;
+    padding: 45px 45px 60px 45px;
+  }
+  .qualities-section-items {
+    text-align: center;
+    margin-bottom: auto;
+    width: 50%;
+  }
+  .titles-section {
+    padding-bottom: 15px;
+    margin: auto;
+  }
 
-.qualities-section {
-  display: flex;
-  flex-direction: row;
-  padding: 30px 45px 15px 45px;
-}
-.qualities-section-items {
-  text-align: center;
-  margin-bottom: auto;
-  width: 50%;
-}
-.paragraph-1 {
-  padding-right: 15px;
-}
-.paragraph-2 {
-  padding-left: 15px;
-}
+  .paragraph-1 {
+    padding-right: 15px;
+    margin: auto;
+  }
+  .paragraph-2 {
+    padding-left: 15px;
+    margin: auto;
+  }
 }
 @media all and (min-width: 1200px) {
   .qualities-section {
-  padding: 30px 38px 15px 38px;
-}
-.paragraph-1 {
-  padding-right: 22.5px;
-}
-.paragraph-2 {
-  padding-left: 22.5px;
-}
+    padding: 45px 138px 60px 138px;
+  }
+  .paragraph-1 {
+    padding-right: 22.5px;
+    margin: auto;
+  }
+  .paragraph-2 {
+    padding-left: 22.5px;
+    margin: auto;
+  }
 }
