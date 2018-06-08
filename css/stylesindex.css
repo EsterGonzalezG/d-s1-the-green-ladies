@@ -142,15 +142,11 @@ display:block;
 
 }
 @media all and (min-width:768px){
-  .container{
-  max-width: 601px;
-margin: 0 auto;
-padding: 45px 0 60px;
-
-
+  .container {
+width: 601px;
+margin: auto;
+padding: 45px 45px 60px 45px;
   }
-
-}
 
 
 .qualities-section {
