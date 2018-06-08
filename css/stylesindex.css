@@ -93,9 +93,19 @@ display:block;
 /*Contenido principal*/
 .headerImage{
   height:421px;
-  background-image: url("../fotos/4cats.jpg");
+  background-image: url("../fotos/fotomovil.jpg");
   background-size: cover;
   position: relative;
+}
+@media all and (min-width:768px) and (max-width:1239px){
+  .headerImage{
+    background-image: url("../fotos/fototablet.jpg");
+  }
+}
+@media all and (min-width:1240px){
+  .headerImage{
+    background-image: url("../fotos/fotoordena.jpg");
+  }
 }
 .container {
   padding: 0;
@@ -142,15 +152,11 @@ display:block;
 
 }
 @media all and (min-width:768px){
-  .container{
-  max-width: 601px;
-margin: 0 auto;
-padding: 45px 0 60px;
-
-
+  .container {
+width: 601px;
+margin: auto;
+padding: 45px 45px 60px 45px;
   }
-
-}
 
 
 .qualities-section {
