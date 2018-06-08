@@ -185,7 +185,7 @@ padding: 45px 0 60px;
 /*cajas descripcion individual - sandra*/
 .member{
   display: flex;
-  padding: 60px 60px 0px 60px;
+  padding: 0px;
   flex-direction: column;
 }
 .member__avatar{
@@ -202,6 +202,9 @@ padding: 45px 0 60px;
   color: #54585a;
   margin: 0 auto;
   text-align: center;
+}
+.icons{
+  margin: 15px 0px
 }
 .photo {
   width: 180px;
