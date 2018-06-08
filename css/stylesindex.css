@@ -159,15 +159,11 @@ display:block;
 
 }
 @media all and (min-width:768px){
-  .container{
-  max-width: 601px;
-margin: 0 auto;
-padding: 45px 0 60px;
-
-
+  .container {
+width: 601px;
+margin: auto;
+padding: 45px 45px 60px 45px;
   }
-
-}
 
 
 .qualities-section {
@@ -214,7 +210,7 @@ padding: 45px 0 60px;
 }
 .member__description{
   margin: 15px;
-  font-family: 'open sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   color: #54585a;
   margin: 0 auto;

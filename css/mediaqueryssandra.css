@@ -29,12 +29,12 @@
 }
 
 .section_description{
-  padding: 0px 30px;
+  padding: 0px 56px;
 }
 .first-name{
   margin-top: 0;
 }
-.paragraph{
+.paragraph__description{
 margin-bottom: 0;
   width: 439px;
 
@@ -58,5 +58,4 @@ p{
 .icons_left{
 justify-content: flex-end;
 }
-
 }
