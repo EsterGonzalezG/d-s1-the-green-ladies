@@ -87,7 +87,7 @@ display:block;
 .menu-sub  ul ul a:visited{
    background-color:rgba(58, 231, 202, 0.7);
    text-decoration: none;
-     color: #FFFFFF;
+   color: #FFFFFF;
 }
 /*fin menu desplegable*/
 /*Contenido principal*/
@@ -117,6 +117,13 @@ display:block;
   bottom: -13%;
   justify-content: center;
   width: 100%;
+}
+@media all and (min-width:768px){
+  .claimContainer{
+    bottom: 0%;
+    background-color: rgba(255, 255, 255, 0.7);
+    justify-content: flex-start;
+  }
 }
 .claim{
   background-color:white;/*rgba(255, 255, 255, 0.7)*/
