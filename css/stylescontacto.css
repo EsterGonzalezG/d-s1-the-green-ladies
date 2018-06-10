@@ -152,10 +152,12 @@ position: relative;
   height: 45px;
   color:#b8b8b9;
   width: 100%;
+  border: 1px #b8b8b9 solid;
 }
 .formulario textarea{
   color:#b8b8b9;
   width: 100%;
+  border: 1px #b8b8b9 solid;
 }
   ::placeholder {
      color: #b8b8b9;

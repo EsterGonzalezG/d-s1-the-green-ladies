@@ -151,13 +151,7 @@ list-style: none;
   margin-top:15px;
 
 }
-@media all and (min-width:1200px){
-  .container {
-    width: 601px;
-    margin: auto;
-    padding: 45px 45px 60px 45px;
-  }
-}
+
 .qualities-section {
   background: #f1f1f1;
   padding: 30px 15px 15px 15px;

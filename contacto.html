@@ -51,22 +51,24 @@
           <label for="name">Nombre completo<text class="asterisco">*</text></label><input type="text" name="nombre"
           placeholder="Nombre..." required/>
         </div>
-        <div>
-          <label for="mail">Email<text class="asterisco">*</text></label>
+      <div class="form-email-tlf">
+        <div class="email">
+          <label for="mail" class="email">Email<text class="asterisco">*</text></label>
           <input class="email" type="email" name="email"
           placeholder="nombre.apellidos@mail.com" required>
         </div>
-        <div>
+        <div class="telephone">
           <label class="telefono" for="telephon">Teléfono</label>
           <input type="tel" name="telefono"
           placeholder="Ej: 123456789">
         </div>
+      </div>
         <div>
           <label for="msg">Mensaje<text class="asterisco">*</text></label>
           <textarea id="msg" rows="5" cols="29" required>¿Qué necesitas?</textarea>
         </div>
-        <div>
-          <input class="button" type="submit" value="ENVIAR">
+        <div class="button-container">
+          <button class="button little-button">ENVIAR</button>
         </div>
     </form>
    </section>
