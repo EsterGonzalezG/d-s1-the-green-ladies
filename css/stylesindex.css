@@ -107,10 +107,6 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
     background-image: url("../fotos/fotoordena.jpg");
   }
 }
-.container {
-  padding: 0;
-  margin:0;
-}
 .claimContainer{
   display: flex;
   position: absolute;
@@ -121,7 +117,6 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 @media all and (min-width:768px){
   .claimContainer{
     bottom: 0%;
-    background-color: rgba(255, 255, 255, 0.7);
     justify-content: flex-start;
   }
 }
@@ -132,6 +127,12 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 25px;
+}
+@media all and (min-width:768px){
+  .claim {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0px;
+  }
 }
 .titulo{
   color: #099D8D;
@@ -164,7 +165,6 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
     padding: 45px 45px 60px 45px;
   }
 }
-
 .qualities-section {
   background: #f1f1f1;
   padding: 30px 15px 15px 15px;
