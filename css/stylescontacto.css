@@ -62,24 +62,19 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   font-size: 20px;
 }
 
-@media all and (min-width:768px){
-  .flex-list .menu-members{
-    padding-top: 20px;
-  }
-
-}
 
 .flex-list .item-miembros:hover > .menu-members{
   display: block;
 }
 
+
 .menu-members li{
   position: relative;
-  background-color:rgba(9, 157, 141) ;
+  background-color:rgba(58, 231, 202) ;
   list-style: none;
 }
 .menu-members li:hover{
-  background-color:rgba(58, 231, 202) ;
+  background-color:rgba(9, 157, 141) ;
 }
 
 .menu-sub  ul ul a:link{
@@ -89,6 +84,22 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 .menu-sub  ul ul a:visited{
   text-decoration: none;
   color: #FFFFFF;
+}
+@media all and (min-width:768px){
+  .flex-list .menu-members{
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .menu-members li{
+    position: relative;
+    background-color:rgba(9, 157, 141) ;
+    list-style: none;
+  }
+  .menu-members li:hover{
+    background-color:rgba(58, 231, 202) ;
+  }
+
+
 }
 /*fin menu desplegable*/
 /*Contenido principal*/
