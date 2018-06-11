@@ -192,7 +192,7 @@ h1 {
   flex-direction: column;
   text-align: center;
   padding: 30px;
-  margin: 0px;
+  margin: 0;
 }
 
 .titles-section {
@@ -515,7 +515,7 @@ h1 {
 }
 /*fin menu desplegable*/
 /*Contenido principal*/
-.headerImage {
+.headerImage.contact {
   height: 300px;
   background-image: url("../fotos/perfil1.jpg");
   background-size: cover;
@@ -787,7 +787,105 @@ body {
   }
 
   .member__avatar {
-    margin: 0px 30px 0px 0px;
+    margin: 0;
+  }
+
+  .member__description {
+    text-align: left;
+    padding: 0px 30px 0px 0px;
+  }
+
+  .icons {
+    margin: 60px 0px;
+  }
+
+  .section_description {
+    padding: 0px 56px;
+  }
+
+  .first-name {
+    margin-top: 0;
+  }
+
+  .paragraph__description {
+    margin-bottom: 0;
+    width: 400px;
+    /*439px web*/
+  }
+
+  .right {
+    text-align: right;
+    margin-right: 30px;
+    /*45px web*/
+  }
+
+  .left {
+    text-align: left;
+    margin-left: 30px;
+    /*45px web*/
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .list-rrhh {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .icons_left {
+    justify-content: flex-end;
+  }
+
+  .photo {
+    width: 205px;
+    /*278px web*/
+    height: 205px;
+    /*278px web*/
+    padding: 0;
+    margin: 0;
+    border-radius: 30%;
+  }
+
+  .photo-img {
+    height: 100%;
+    background-size: cover;
+    margin: 0;
+    border-radius: 4%;
+    padding: 5px;
+    background: #EEEAEB;
+    height: 195px;
+    /*268px web*/
+    width: 195px;
+    /*268px web*/
+  }
+}
+@media all and (min-width: 1200px) {
+  .member_left {
+    text-align: left;
+  }
+
+  .member {
+    flex-direction: row;
+    padding: 0px 20px;
+  }
+
+  .member__right {
+    flex-direction: row-reverse;
+    text-align: right;
+    padding-right: 0px;
+  }
+
+  .name {
+    margin: 45px 0px;
+    text-align: center;
+    padding-right: 20px;
+  }
+
+  .member__avatar {
+    margin: 0;
   }
 
   .member__description {
@@ -810,16 +908,19 @@ body {
   .paragraph__description {
     margin-bottom: 0;
     width: 439px;
+    /*439px web*/
   }
 
   .right {
     text-align: right;
     margin-right: 45px;
+    /*45px web*/
   }
 
   .left {
     text-align: left;
     margin-left: 45px;
+    /*45px web*/
   }
 
   p {
@@ -834,6 +935,29 @@ body {
 
   .icons_left {
     justify-content: flex-end;
+  }
+
+  .photo {
+    width: 278px;
+    /*278px web*/
+    height: 278px;
+    /*278px web*/
+    padding: 0;
+    margin: 0;
+    border-radius: 30%;
+  }
+
+  .photo-img {
+    height: 100%;
+    background-size: cover;
+    margin: 0;
+    border-radius: 4%;
+    padding: 5px;
+    background: #EEEAEB;
+    height: 268px;
+    /*268px web*/
+    width: 268px;
+    /*268px web*/
   }
 }
 @media all and (min-width: 768px) {
