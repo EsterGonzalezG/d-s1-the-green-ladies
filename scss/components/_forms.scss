@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+body {/*quitamos margenes del body*/
+  width: 100%;/*ancho máximo de la caja*/
+  margin: 0px;
+}
+
+@media all and (min-width: 768px) {
+  .button-container {
+    width: 100%;
+    text-align: right; //Con la propiedad text aling podemos posicionar tanto textos como elementos que estén dentro del contenedor. Tenemos que poner el width al 100% para tener el espacio y decirle de alienar a la drch el texto (en este caso la caja del botón)//
+  }
+  .little-button {
+    width: 206px;
+
+  }
+}
+
+@media all and (min-width: 1200px) {
+
+  .container {
+    width: 601px;
+    margin: auto;
+    padding: 45px 45px 60px 45px;
+  }
+
+  .form-width {
+    max-width: 601px;
+  }
+  .formulario {
+    margin: 0;
+  }
+  .form-email-tlf {
+    display: flex;
+    justify-content: space-between;
+  }
+  .email {
+    width: 395px;
+  }
+  .telephone {
+    width: 162px;
+  }
+}
