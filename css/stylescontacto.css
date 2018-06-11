@@ -59,14 +59,14 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   position: absolute;
   padding-top: 12px;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 18px;
+  padding-left: 0;
 }
 
 
 .flex-list .item-miembros:hover > .menu-members{
   display: block;
 }
-
 
 .menu-members li{
   position: relative;
@@ -100,147 +100,146 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   }
 
 
-}
-/*fin menu desplegable*/
-/*Contenido principal*/
-.headerImage{
-  height:300px;
-  background-image: url("../fotos/perfil1.jpg");
-  background-size: cover;
-  position: relative;
-}
-.titulo{
-  color: #099D8D;
-  font-style: 'Rubik', sans-serif;
-  font-size: 24px;
-  line: 45px;
-}
-.container{
-  color:#54585A;
-  font-style: 'Open Sans', sans-serif;
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 0px;
-  margin: 0px;
-}
-.titles-section {
-  color: #099d8d;
-  font-size: 22px;
-  font-family: 'Rubik', sans-serif;
-  margin-top:30px;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-.explicacion{
-  font-size: 18px;
-  margin: 15px;
-}
-.frase{
-  font-size: 14px;
-  margin-bottom: 40px;
-}
-.asterisco{
-  color:rgba(58, 231, 202);
-}
-/*formulario*/
-.formulario{
-  display: block;
-  margin:15px;
-}
-.formulario label{
-  display: block;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 100%;
-  color:  #54585a;
-}
-.formulario div{
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-.formulario input{
-  height: 45px;
-  color:#b8b8b9;
-  width: 100%;
-  border: 1px #b8b8b9 solid;
-}
-.formulario textarea{
-  color:#b8b8b9;
-  width: 100%;
-  border: 1px #b8b8b9 solid;
-}
-::placeholder {
-  color: #b8b8b9;
-  padding: 10px;
-}
-.email::placeholder{
-  color:#000000;
-}
-.button{
-  font-style: 'Open Sans', sans-serif;
-  text-decoration: none;
-  padding: 0px;
-  margin-top: 10px;
-  margin-bottom: 40px;
-  font-size: 16px;
-  color: #ffffff;
-  background-color:#099d8d;
-  border-radius: 3px;
-  border: 2px solid #099d8d;
-  height: 45px;
-  width: 100%;
-}
-.form-width { /*le decimos que  esté siempre al 100% pero que nunca pase de 442px y nos ahorramos una media query*/
-  width: 100%;
-  max-width: 442px;
-  margin: 0 auto;
-}
-/*Footer*/
-.pie{
-  margin:0;
-  text-align: center;
-}
-hr{
-  color:#85929E;
-  margin: 0;
-  padding: 0;
-}
-.p-footer{
-  font-family: 'Rubik', sans-serif;
-  color:#BDC3C7;
-  font-size: 18px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  text-transform: capitalize;
-}
-.flex-list-footer{
-  padding: 0;
-  text-transform: uppercase;
-}
-.item-footer{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.a-footer:link{
-  text-decoration: none;
-  color:#85929E;
-  font-family: 'Rubik', sans-serif;
-  font-size: 16px;
-  align-items: center;
-}
-.a-footer:visited{
-  text-decoration: none;
-  color:#85929E;
-  font-family: 'Rubik', sans-serif;
-  font-size: 16px;
-}
-.logo-footer1{
-  width: 115.9px;
-  height: 45px;
-  margin-top: 30px;
-  margin-bottom: 45px;
-}
+  /*fin menu desplegable*/
+  /*Contenido principal*/
+  .headerImage{
+    height:300px;
+    background-image: url("../fotos/perfil1.jpg");
+    background-size: cover;
+    position: relative;
+  }
+  .titulo{
+    color: #099D8D;
+    font-style: 'Rubik', sans-serif;
+    font-size: 24px;
+    line: 45px;
+  }
+  .container{
+    color:#54585A;
+    font-style: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .titles-section {
+    color: #099d8d;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    margin-top:30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .explicacion{
+    font-size: 18px;
+    margin: 15px;
+  }
+  .frase{
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .asterisco{
+    color:rgba(58, 231, 202);
+  }
+  /*formulario*/
+  .formulario{
+    display: block;
+    margin:15px;
+  }
+  .formulario label{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    color:  #54585a;
+  }
+  .formulario div{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .formulario input{
+    height: 45px;
+    color:#b8b8b9;
+    width: 100%;
+    border: 1px #b8b8b9 solid;
+  }
+  .formulario textarea{
+    color:#b8b8b9;
+    width: 100%;
+    border: 1px #b8b8b9 solid;
+  }
+  ::placeholder {
+    color: #b8b8b9;
+    padding: 10px;
+  }
+  .email::placeholder{
+    color:#000000;
+  }
+  .button{
+    font-style: 'Open Sans', sans-serif;
+    text-decoration: none;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color:#099d8d;
+    border-radius: 3px;
+    border: 2px solid #099d8d;
+    height: 45px;
+    width: 100%;
+  }
+  .form-width { /*le decimos que  esté siempre al 100% pero que nunca pase de 442px y nos ahorramos una media query*/
+    width: 100%;
+    max-width: 442px;
+    margin: 0 auto;
+  }
+  /*Footer*/
+  .pie{
+    margin:0;
+    text-align: center;
+  }
+  hr{
+    color:#85929E;
+    margin: 0;
+    padding: 0;
+  }
+  .p-footer{
+    font-family: 'Rubik', sans-serif;
+    color:#BDC3C7;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  .flex-list-footer{
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .item-footer{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .a-footer:link{
+    text-decoration: none;
+    color:#85929E;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    align-items: center;
+  }
+  .a-footer:visited{
+    text-decoration: none;
+    color:#85929E;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+  }
+  .logo-footer1{
+    width: 115.9px;
+    height: 45px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
