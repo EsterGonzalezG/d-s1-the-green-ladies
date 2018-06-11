@@ -15,18 +15,18 @@
 <body>
   <header>
     <div class="fixedHeader">
-    <span class="header1">
+      <span class="header1">
         <h1>The green ladies</h1>
       </span>
       <nav class="menu-sub">
         <ul class="flex-list">
           <li class="item" ><a class="a-header" href="index.html#equipo"  title="Ir a Equipo">Equipo</a></li>
-          <li class="item" ><a class="a-header" href="index.html#quienes"  title="Ir a Quienes somos">Quienes somos</a>
-            <ul>
-              <li><a href="#estefania">Estefania Salgado</a></li>
-              <li><a href="#irene">Irene Ordóñez</a></li>
-              <li><a href="#ester">Ester González</a></li>
-              <li><a href="#sandra">Sandra García</a></li>
+          <li class="item-miembros" ><a class="a-header" href="index.html#quienes"  title="Ir a Quienes somos">Quienes somos</a>
+            <ul class="menu-members">
+              <li><a href="index.html#estefania">Estefania Salgado</a></li>
+              <li><a href="index.html#irene">Irene Ordóñez</a></li>
+              <li><a href="index.html#ester">Ester González</a></li>
+              <li><a href="index.html#sandra">Sandra García</a></li>
             </ul>
           </li>
           <li class="item" ><a class="a-header" href="#contacto" title="Ir a Contacto">Contacto</a></li>
@@ -35,56 +35,56 @@
     </div>
   </header>
   <main>
-      <div id="contacto"></div>
+    <div id="contacto"></div>
     <div class="headerImage"></div>
-  <div class="form-width">
-    <section>
-      <div class="container">
-        <h2 class="titles-section" >Contacto</h2>
-        <p class="explicacion">Rellena el formulario que encontrarás a continuación y estaremos encantadas de responderte lo antes posible<br>¡Gracias!</br></p>
-        <p class="frase">Todos los campos marcados con <text class="asterisco">*</text> son obligatorios.</p>
-      </div>
-    </section>
-    <section>
-      <form class="formulario" action="/my-handling-form-page" method="post">
-        <div>
-          <label for="name">Nombre completo<text class="asterisco">*</text></label><input type="text" name="nombre"
-          placeholder="Nombre..." required/>
+    <div class="form-width">
+      <section>
+        <div class="container">
+          <h2 class="titles-section" >Contacto</h2>
+          <p class="explicacion">Rellena el formulario que encontrarás a continuación y estaremos encantadas de responderte lo antes posible<br>¡Gracias!</br></p>
+          <p class="frase">Todos los campos marcados con <text class="asterisco">*</text> son obligatorios.</p>
         </div>
-        <div>
-          <label for="mail">Email<text class="asterisco">*</text></label>
-          <input class="email" type="email" name="email"
-          placeholder="nombre.apellidos@mail.com" required>
-        </div>
-        <div>
-          <label class="telefono" for="telephon">Teléfono</label>
-          <input type="tel" name="telefono"
-          placeholder="Ej: 123456789">
-        </div>
-        <div>
-          <label for="msg">Mensaje<text class="asterisco">*</text></label>
-          <textarea id="msg" rows="5" cols="29" required>¿Qué necesitas?</textarea>
-        </div>
-        <div>
-          <input class="button" type="submit" value="ENVIAR">
-        </div>
-    </form>
-   </section>
-  </div>
-</main>
-<footer class="pie">
-  <hr>
-  <p class="p-footer">The green ladies &copy;2018</p>
-  <nav class="nav-footer">
-    <ul class="flex-list-footer">
-      <li class="item-footer" ><a class="a-footer" href="index.html#equipo" title="Ir a Equipo">Equipo</a></li>
-      <li class="item-footer" ><a class="a-footer" href="index.html#quienes" title="Ir a Quienes somos">Quienes somos</a></li>
-      <li class="item-footer" ><a class="a-footer" href="#contacto" title="Ir a Contacto">Contacto</a></li>
-    </ul>
-  </nav>
-<div class="logo-footer">
-  <a href="http://www.adalab.es" target="_blank"><img class="logo-footer1" src="fotos/logo_adalab_80px.png" alt="Logo de empresa social Adalab"></a>
-  </div>
-</footer>
+      </section>
+      <section>
+        <form class="formulario" action="/my-handling-form-page" method="post">
+          <div>
+            <label for="name">Nombre completo<text class="asterisco">*</text></label><input type="text" name="nombre"
+            placeholder="Nombre..." required/>
+          </div>
+          <div>
+            <label for="mail">Email<text class="asterisco">*</text></label>
+            <input class="email" type="email" name="email"
+            placeholder="nombre.apellidos@mail.com" required>
+          </div>
+          <div>
+            <label class="telefono" for="telephon">Teléfono</label>
+            <input type="tel" name="telefono"
+            placeholder="Ej: 123456789">
+          </div>
+          <div>
+            <label for="msg">Mensaje<text class="asterisco">*</text></label>
+            <textarea id="msg" rows="5" cols="29" required>¿Qué necesitas?</textarea>
+          </div>
+          <div>
+            <input class="button" type="submit" value="ENVIAR">
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer class="pie">
+    <hr>
+    <p class="p-footer">The green ladies &copy;2018</p>
+    <nav class="nav-footer">
+      <ul class="flex-list-footer">
+        <li class="item-footer" ><a class="a-footer" href="index.html#equipo" title="Ir a Equipo">Equipo</a></li>
+        <li class="item-footer" ><a class="a-footer" href="index.html#quienes" title="Ir a Quienes somos">Quienes somos</a></li>
+        <li class="item-footer" ><a class="a-footer" href="#contacto" title="Ir a Contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="logo-footer">
+      <a href="http://www.adalab.es" target="_blank"><img class="logo-footer1" src="fotos/logo_adalab_80px.png" alt="Logo de empresa social Adalab"></a>
+    </div>
+  </footer>
 </body>
 </html>
