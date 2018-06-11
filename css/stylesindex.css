@@ -32,12 +32,12 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   background-color: rgba(58, 231, 202, 0.7);/*color de fondo*/
   list-style: none;/*eliminamos los estilos de la ul*/
   display: flex;/*modo flexbox*/
-  margin:0px;/*eliminamos el margen para que queden pegadas las dos cajas*/
+  margin:0;/*eliminamos el margen para que queden pegadas las dos cajas*/
   padding:0;
   align-items: center;
   justify-content: center;
 }
-.item{
+.item,.item-miembros{
   padding: 5px 5px 5px 5px;
   text-transform: uppercase;
 }
@@ -46,6 +46,7 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   color: #FFFFFF;
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
+
 }
 .a-header:visited{/*cuando el enlace ha sido clikado o ha sido visitado especificamos el color de la fuente, la fuente y el tamaño */
   text-decoration: none;
@@ -54,42 +55,56 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   font-size: 16px;
 }
 /*Sub menu desplegable con los miembros del equipo*/
-.menu-sub ul ul{
-  display:none;
-  position:absolute;
-  top:100%;
-  left:45%;
-  background-color:rgba(58, 231, 202);
-  padding:0;
+
+.flex-list .menu-members{
+  display :none;
+  position: absolute;
+  padding-top: 12px;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding-left: 0;
+}
+
+
+.flex-list .item-miembros:hover > .menu-members{
+  display: block;
+}
+
+.menu-members li{
+  position: relative;
+  background-color:rgba(58, 231, 202) ;
   list-style: none;
-  font-size: 14px;
 }
-.menu-sub ul ul li {
-  float:none;
-  width:100%;
-  list-style: none;
-  color: white;
-  background-color:rgba(58, 231, 202);
+.menu-members li:hover{
+  background-color:rgba(9, 157, 141) ;
 }
-.menu-sub ul ul a {
-  line-height:200%;
-  padding:10px 15px;
-  width: 100%;
-}
-.menu-sub ul li:hover > ul {
-  display:block;
-}
+
 .menu-sub  ul ul a:link{
-  background-color:rgba(58, 231, 202, 0.7);
   text-decoration: none;
   color: #FFFFFF;
 }
 .menu-sub  ul ul a:visited{
-  background-color:rgba(58, 231, 202, 0.7);
   text-decoration: none;
   color: #FFFFFF;
 }
+@media all and (min-width:768px){
+  .flex-list .menu-members{
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .menu-members li{
+    position: relative;
+    background-color:rgba(9, 157, 141) ;
+    list-style: none;
+  }
+  .menu-members li:hover{
+    background-color:rgba(58, 231, 202) ;
+  }
+
+}
+
 /*fin menu desplegable*/
+
 /*Contenido principal*/
 .headerImage{
   height:421px;
@@ -107,10 +122,6 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
     background-image: url("../fotos/fotoordena.jpg");
   }
 }
-.container {
-  padding: 0;
-  margin:0;
-}
 .claimContainer{
   display: flex;
   position: absolute;
@@ -121,7 +132,6 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 @media all and (min-width:768px){
   .claimContainer{
     bottom: 0%;
-    background-color: rgba(255, 255, 255, 0.7);
     justify-content: flex-start;
   }
 }
@@ -132,6 +142,12 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 25px;
+}
+@media all and (min-width:768px){
+  .claim {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0px;
+  }
 }
 .titulo{
   color: #099D8D;
@@ -156,13 +172,6 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   font-family: 'Rubik', sans-serif;
   margin-top:15px;
 
-}
-@media all and (min-width:1200px){
-  .container {
-    width: 601px;
-    margin: auto;
-    padding: 45px 45px 60px 45px;
-  }
 }
 
 .qualities-section {
