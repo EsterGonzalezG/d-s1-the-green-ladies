@@ -1,5 +1,3 @@
-
-
 @media all and (min-width:768px){
   html{
     box-sizing: border-box;
@@ -15,17 +13,11 @@
     background-color: rgba(9, 157, 141);
     padding: 0 30px;
     box-sizing: border-box;
-
   }
   .flex-list{
     background-color: rgba(9, 157, 141);
   }
-.menu-sub ul ul{
-left: 80%;
-
-
-
-}
-
-
+  .menu-sub ul ul{
+    left: 80%;
+  }
 }
