@@ -10,12 +10,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(9, 157, 141);
+    background-color: $color01;
     padding: 0 30px;
     box-sizing: border-box;
   }
   .flex-list{
-    background-color: rgb(9, 157, 141);
+    background-color: $color01;
   }
   .menu-sub ul ul{
     left: 80%;

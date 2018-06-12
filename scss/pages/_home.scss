@@ -22,7 +22,7 @@ body{/*quitamos magenes del body*/
 }
 h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   color: $color08;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -37,19 +37,19 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   justify-content: center;
 }
 .item,.item-miembros{
-  padding: 5px 5px 5px 5px;
+  padding: 5px;
   text-transform: uppercase;
 }
 .a-header:link{/*quitamos el subrayado del enlace y ponemos color de la fuente, la fuente y el tamaño*/
   text-decoration: none;
   color: $color08;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 16px;
 }
 .a-header:visited{/*cuando el enlace ha sido clikado o ha sido visitado especificamos el color de la fuente, la fuente y el tamaño */
   text-decoration: none;
   color: $color08;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 16px;
 }
 /*Sub menu desplegable con los miembros del equipo*/
@@ -129,7 +129,7 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   background-color: $color08; /*rgba(255, 255, 255, 0.7)*/
   margin: 30px;
   padding:15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-family02;
   font-size: 18px;
   line-height: 25px;
 }
@@ -141,13 +141,13 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 }
 .titulo{
   color: $color01;
-  font-style: 'Rubik', sans-serif;
+  font-style: $font-family01;
   font-size: 24px;
   line: 45px;
 }
 .container{
   color: $color06;
-  font-style: 'Open Sans', sans-serif;
+  font-style: $font-family02;
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -159,7 +159,7 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 .titles-section {
   color: $color01;
   font-size: 22px;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   margin-top:15px;
 }
 .qualities-section {
@@ -206,7 +206,7 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 }
 .member__description{
   margin: 15px;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 16px;
   color: $color06;
   margin: 0 auto;
@@ -233,9 +233,9 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   width: 170px;
 }
 .name {
-  margin: 30px 0px 30px 0;
+  margin: 30px 0px;
   color: $color01;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 24px;
   text-transform: uppercase;
   text-align: center;
@@ -244,7 +244,7 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   margin: 15px 0px 0px 0px;
   color: #000000;
   font-size: 20px;
-  font-family: 'open sans', sans-serif;
+  font-family: $font-family02;
 }
 /*cajas descripcion individual - sandra*/
 .list-rrhh {
@@ -285,7 +285,7 @@ hr{
   padding: 0;
 }
 .p-footer{
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   color: $color09;
   font-size: 18px;
   margin-top: 30px;
@@ -303,14 +303,14 @@ hr{
 .a-footer:link{
   text-decoration: none;
   color: $color02;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 16px;
   text-transform: uppercase;
 }
 .a-footer:visited{
   text-decoration: none;
   color: $color02;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 16px;
   text-transform: uppercase;
 }

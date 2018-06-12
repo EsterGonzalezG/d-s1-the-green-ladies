@@ -22,7 +22,7 @@ body{/*quitamos magenes del body*/
 }
 h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   color: $color08;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 16px;
   text-transform:uppercase;
 }
@@ -38,18 +38,18 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   text-transform: uppercase;
 }
 .item{
- padding: 5px 5px 5px 5px;
+ padding: 5px;
 }
 .a-header:link{/*quitamos el subrayado del enlace y ponemos color de la fuente, la fuente y el tamaño*/
   text-decoration: none;
   color: $color08;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 16px;
 }
 .a-header:visited{/*cuando el enlace ha sido clikado o ha sido visitado especificamos el color de la fuente, la fuente y el tamaño */
   text-decoration: none;
   color: $color08;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 16px;
 }
 /*Sub menu desplegable con los miembros del equipo*/
@@ -104,13 +104,13 @@ position: relative;
 }
 .titulo{
   color: $color01;
-  font-style: 'Rubik', sans-serif;
+  font-style: $font-family01;
   font-size: 24px;
   line: 45px;
 }
 .container{
   color: $color06;
-  font-style: 'Open Sans', sans-serif;
+  font-style: $font-family02;
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -122,7 +122,7 @@ position: relative;
 .titles-section {
   color: $color01;
   font-size: 22px;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   margin-top:30px;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -173,7 +173,7 @@ position: relative;
      color: $color04;
    }
    .button{
-    font-style: 'Open Sans', sans-serif;
+    font-style: $font-family02;
     text-decoration: none;
     padding: 0px;
     margin-top: 10px;
@@ -202,7 +202,7 @@ hr{
   padding: 0;
 }
 .p-footer{
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   color: $color09;
   font-size: 18px;
   margin-top: 30px;
@@ -221,14 +221,14 @@ padding: 0;
 .a-footer:link{
   text-decoration: none;
   color: $color02;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 16px;
  align-items: center;
 }
 .a-footer:visited{
   text-decoration: none;
   color: $color02;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 16px;
 }
 .logo-footer1{
