@@ -9,11 +9,10 @@ body {/*quitamos margenes del body*/
 @media all and (min-width: 768px) {
   .button-container {
     width: 100%;
-    text-align: right; //Con la propiedad text aling podemos posicionar tanto textos como elementos que estén dentro del contenedor. Tenemos que poner el width al 100% para tener el espacio y decirle de alienar a la drch el texto (en este caso la caja del botón)//
+    text-align: right; /*Con la propiedad text aling podemos posicionar tanto textos como elementos que estén dentro del contenedor. Tenemos que poner el width al 100% para tener el espacio y decirle de alienar a la drch el texto (en este caso la caja del botón)*/
   }
   .little-button {
     width: 206px;
-
   }
 }
 
