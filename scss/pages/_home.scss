@@ -15,20 +15,20 @@ body{/*quitamos magenes del body*/
 }
 .header1{
   height: 60px;/*altura especificada*/
-  background-color: rgba(9, 157, 141, 0.7);;/*color de fondo especifico*/
+  background-color: $color10; /*color de fondo especifico*/
   display: flex;/*usamos el display en flex para poder usar flexbox*/
   justify-content: center;/*para que el item este en el centro del eje*/
   align-items: center;/*alinea elementos flex a lo largo del eje transversal*/
 }
 h1{/*especificamos el color de la fuente, la fuente y el tamaño */
-  color: #FFFFFF;
-  font-family: 'Rubik', sans-serif;
+  color: $color08;
+  font-family: $font-family01;
   font-size: 16px;
   text-transform: uppercase;
 }
 .flex-list{
-  height: 45px;/*le restamos el padding de item y el del flex-list*/
-  background-color: rgba(58, 231, 202, 0.7);/*color de fondo*/
+  height: 45px; /*le restamos el padding de item y el del flex-list*/
+  background-color: $color11; /*color de fondo*/
   list-style: none;/*eliminamos los estilos de la ul*/
   display: flex;/*modo flexbox*/
   margin:0;/*eliminamos el margen para que queden pegadas las dos cajas*/
@@ -37,19 +37,19 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   justify-content: center;
 }
 .item,.item-miembros{
-  padding: 5px 5px 5px 5px;
+  padding: 5px;
   text-transform: uppercase;
 }
 .a-header:link{/*quitamos el subrayado del enlace y ponemos color de la fuente, la fuente y el tamaño*/
   text-decoration: none;
-  color: #FFFFFF;
-  font-family: 'Rubik', sans-serif;
+  color: $color08;
+  font-family: $font-family01;
   font-size: 16px;
 }
 .a-header:visited{/*cuando el enlace ha sido clikado o ha sido visitado especificamos el color de la fuente, la fuente y el tamaño */
   text-decoration: none;
-  color: #FFFFFF;
-  font-family: 'Rubik', sans-serif;
+  color: $color08;
+  font-family: $font-family01;
   font-size: 16px;
 }
 /*Sub menu desplegable con los miembros del equipo*/
@@ -66,19 +66,19 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 }
 .menu-members li{
   position: relative;
-  background-color:rgb(58, 231, 202) ;
+  background-color: $color07;
   list-style: none;
 }
 .menu-members li:hover{
-  background-color:rgb(9, 157, 141) ;
+  background-color: $color01;
 }
 .menu-sub  ul ul a:link{
   text-decoration: none;
-  color: #FFFFFF;
+  color: $color08;
 }
 .menu-sub  ul ul a:visited{
   text-decoration: none;
-  color: #FFFFFF;
+  color: $color08;
 }
 @media all and (min-width:768px){
   .flex-list .menu-members{
@@ -87,11 +87,11 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   }
   .menu-members li{
     position: relative;
-    background-color:rgb(9, 157, 141) ;
+    background-color: $color01;
     list-style: none;
   }
   .menu-members li:hover{
-    background-color:rgb(58, 231, 202) ;
+    background-color: $color07;
   }
 }
 /*fin menu desplegable*/
@@ -126,28 +126,28 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   }
 }
 .claim{
-  background-color:white;/*rgba(255, 255, 255, 0.7)*/
+  background-color: $color08; /*rgba(255, 255, 255, 0.7)*/
   margin: 30px;
   padding:15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-family02;
   font-size: 18px;
   line-height: 25px;
 }
 @media all and (min-width:768px){
   .claim {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: $color12;
     margin: 0px;
   }
 }
 .titulo{
-  color: #099D8D;
-  font-style: 'Rubik', sans-serif;
+  color: $color01;
+  font-style: $font-family01;
   font-size: 24px;
   line: 45px;
 }
 .container{
-  color:#54585A;
-  font-style: 'Open Sans', sans-serif;
+  color: $color06;
+  font-style: $font-family02;
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -157,13 +157,13 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   margin: 0;
 }
 .titles-section {
-  color: #099d8d;
+  color: $color01;
   font-size: 22px;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   margin-top:15px;
 }
 .qualities-section {
-  background: #f1f1f1;
+  background: $color13;
   padding: 30px 15px 15px 15px;
   display: flex;
   flex-direction: column;
@@ -172,7 +172,7 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 }
 .paragraph {
   font-size: 16px;
-  color: #54585a;
+  color: $color06;
 }
 .qualities-section-items {
   text-align: center;
@@ -188,7 +188,7 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #ffffff;
+  border-top: 20px solid $color08;
 }
 /*contenido para describir cada una del equipo*/
 /*cajas descripcion individual - sandra*/
@@ -206,9 +206,9 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 }
 .member__description{
   margin: 15px;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   font-size: 16px;
-  color: #54585a;
+  color: $color06;
   margin: 0 auto;
   text-align: center;
 }
@@ -228,14 +228,14 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   margin: 0 auto;
   border-radius: 4%;
   padding: 5px;
-  background: #EEEAEB;
+  background: $color03;
   height: 170px;
   width: 170px;
 }
 .name {
-  margin: 30px 0px 30px 0;
-  color: #099D8D;
-  font-family: 'Rubik', sans-serif;
+  margin: 30px 0px;
+  color: $color01;
+  font-family: $font-family01;
   font-size: 24px;
   text-transform: uppercase;
   text-align: center;
@@ -244,7 +244,7 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   margin: 15px 0px 0px 0px;
   color: #000000;
   font-size: 20px;
-  font-family: 'open sans', sans-serif;
+  font-family: $font-family02;
 }
 /*cajas descripcion individual - sandra*/
 .list-rrhh {
@@ -262,17 +262,17 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 }
 .list-item-rrhh::before  {
   content: "·";
-  color: #099D8D;
+  color: $color01;
   margin: 0 10px;
 }
 .list-item-rrhh:first-child::before{
   content: initial;
 }
 .rrss:visited {
-  color: #099D8D;
+  color: $color01;
 }
 .rrss:link {
-  color: #099D8D;
+  color: $color01;
 }
 /*Footer*/
 .pie{
@@ -280,13 +280,13 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   text-align: center;
 }
 hr{
-  color:#85929E;
+  color: $color02;
   margin: 0;
   padding: 0;
 }
 .p-footer{
-  font-family: 'Rubik', sans-serif;
-  color:#BDC3C7;
+  font-family: $font-family01;
+  color: $color09;
   font-size: 18px;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -302,15 +302,15 @@ hr{
 }
 .a-footer:link{
   text-decoration: none;
-  color:#85929E;
-  font-family: 'Rubik', sans-serif;
+  color: $color02;
+  font-family: $font-family01;
   font-size: 16px;
   text-transform: uppercase;
 }
 .a-footer:visited{
   text-decoration: none;
-  color:#85929E;
-  font-family: 'Rubik', sans-serif;
+  color: $color02;
+  font-family: $font-family01;
   font-size: 16px;
   text-transform: uppercase;
 }

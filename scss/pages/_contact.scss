@@ -15,41 +15,41 @@ body{/*quitamos magenes del body*/
 }
 .header1{
   height: 60px;/*altura especificada*/
-  background-color: rgba(9, 157, 141, 0.7);;/*color de fondo especifico*/
+  background-color: $color10; /*color de fondo especifico*/
   display: flex;/*usamos el display en flex para poder usar flexbox*/
   justify-content: center;/*para que el item este en el centro del eje*/
   align-items: center;/*alinea elementos flex a lo largo del eje transversal*/
 }
 h1{/*especificamos el color de la fuente, la fuente y el tamaño */
-  color: #FFFFFF;
-  font-family: 'Rubik', sans-serif;
+  color: $color08;
+  font-family: $font-family01;
   font-size: 16px;
   text-transform:uppercase;
 }
 .flex-list{
   height: 45px;
-  background-color: rgba(58, 231, 202, 0.7);/*color de fondo*/
-  list-style: none;/*eliminamos los estilos de la ul*/
-  display: flex;/*modo flexbox*/
-  margin:0;/*eliminamos el margen para que queden pegadas las dos cajas*/
+  background-color: $color11; /*color de fondo*/
+  list-style: none;/ *eliminamos los estilos de la ul*/
+  display: flex; /*modo flexbox*/
+  margin:0; /*eliminamos el margen para que queden pegadas las dos cajas*/
   padding: 0;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
 }
 .item{
- padding: 5px 5px 5px 5px;
+ padding: 5px;
 }
 .a-header:link{/*quitamos el subrayado del enlace y ponemos color de la fuente, la fuente y el tamaño*/
   text-decoration: none;
-  color: #FFFFFF;
-  font-family: 'Rubik', sans-serif;
+  color: $color08;
+  font-family: $font-family01;
   font-size: 16px;
 }
 .a-header:visited{/*cuando el enlace ha sido clikado o ha sido visitado especificamos el color de la fuente, la fuente y el tamaño */
   text-decoration: none;
-  color: #FFFFFF;
-  font-family: 'Rubik', sans-serif;
+  color: $color08;
+  font-family: $font-family01;
   font-size: 16px;
 }
 /*Sub menu desplegable con los miembros del equipo*/
@@ -66,19 +66,19 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 }
 .menu-members li{
   position: relative;
-  background-color:rgb(58, 231, 202) ;
+  background-color: $color07;
   list-style: none;
 }
 .menu-members li:hover{
-  background-color:rgb(9, 157, 141) ;
+  background-color: $color01;
 }
 .menu-sub  ul ul a:link{
   text-decoration: none;
-  color: #FFFFFF;
+  color: $color08;
 }
 .menu-sub  ul ul a:visited{
   text-decoration: none;
-  color: #FFFFFF;
+  color: $color08;
 }
 @media all and (min-width:768px){
   .flex-list .menu-members{
@@ -87,11 +87,11 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   }
   .menu-members li{
     position: relative;
-    background-color:rgb(9, 157, 141) ;
+    background-color: $color01;
     list-style: none;
   }
   .menu-members li:hover {
-    background-color:rgb(58, 231, 202) ;
+    background-color: $color07;
   }
 }
 /*fin menu desplegable*/
@@ -103,14 +103,14 @@ background-size: cover;
 position: relative;
 }
 .titulo{
-  color: #099D8D;
-  font-style: 'Rubik', sans-serif;
+  color: $color01;
+  font-style: $font-family01;
   font-size: 24px;
   line: 45px;
 }
 .container{
-  color:#54585A;
-  font-style: 'Open Sans', sans-serif;
+  color: $color06;
+  font-style: $font-family02;
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -120,9 +120,9 @@ position: relative;
   margin: 0px;
   }
 .titles-section {
-  color: #099d8d;
+  color: $color01;
   font-size: 22px;
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family01;
   margin-top:30px;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -136,7 +136,7 @@ position: relative;
   margin-bottom: 40px;
 }
 .asterisco{
-  color:rgb(58, 231, 202);
+  color: $color07;
 }
 /*formulario*/
 .formulario{
@@ -148,7 +148,7 @@ position: relative;
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
-  color:  #54585a;
+  color: $color06;
 }
 .formulario div{
   margin-bottom: 20px;
@@ -156,33 +156,33 @@ position: relative;
 }
 .formulario input{
   height: 45px;
-  color:#b8b8b9;
+  color: $color05;
   width: 100%;
-  border: 1px #b8b8b9 solid;
+  border: 1px $color05 solid;
 }
 .formulario textarea{
-  color:#b8b8b9;
+  color: $color05;
   width: 100%;
-  border: 1px #b8b8b9 solid;
+  border: 1px $color05 solid;
 }
   ::placeholder {
-     color: #b8b8b9;
+     color: $color05;
      padding: 10px;
    }
   .email::placeholder{
-     color:#000000;
+     color: $color04;
    }
    .button{
-    font-style: 'Open Sans', sans-serif;
+    font-style: $font-family02;
     text-decoration: none;
     padding: 0px;
     margin-top: 10px;
     margin-bottom: 40px;
     font-size: 16px;
-    color: #ffffff;
-    background-color:#099d8d;
+    color: $color08;
+    background-color: $color01;
     border-radius: 3px;
-    border: 2px solid #099d8d;
+    border: 2px solid $color01;
     height: 45px;
     width: 100%;
    }
@@ -197,13 +197,13 @@ position: relative;
   text-align: center;
 }
 hr{
-  color:#85929E;
+  color: $color02;
   margin: 0;
   padding: 0;
 }
 .p-footer{
-  font-family: 'Rubik', sans-serif;
-  color:#BDC3C7;
+  font-family: $font-family01;
+  color: $color09;
   font-size: 18px;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -220,15 +220,15 @@ padding: 0;
 }
 .a-footer:link{
   text-decoration: none;
-  color:#85929E;
-  font-family: 'Rubik', sans-serif;
+  color: $color02;
+  font-family: $font-family01;
   font-size: 16px;
  align-items: center;
 }
 .a-footer:visited{
   text-decoration: none;
-  color:#85929E;
-  font-family: 'Rubik', sans-serif;
+  color: $color02;
+  font-family: $font-family01;
   font-size: 16px;
 }
 .logo-footer1{
