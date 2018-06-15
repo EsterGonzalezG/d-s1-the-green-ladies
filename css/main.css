@@ -1,65 +1,1021 @@
-/*
-Error: wrong number of arguments (1 for 4) for `rgba'
-        on line 10 of /home/adalaber/Documentos/proyectos/the-green-ladies/proyecto-final-movil/d-s1-the-green-ladies/scss/core/_variables.scss
-        from line 1 of /home/adalaber/Documentos/proyectos/the-green-ladies/proyecto-final-movil/d-s1-the-green-ladies/scss/main.scss
-
-5: @import 'layout/aside';
-6: @import 'layout/grid';
-7: @import 'layout/footer';
-8: @import 'components/forms';
-9: @import 'components/typography';
-
-Backtrace:
-/home/adalaber/Documentos/proyectos/the-green-ladies/proyecto-final-movil/d-s1-the-green-ladies/scss/core/_variables.scss:10
-/home/adalaber/Documentos/proyectos/the-green-ladies/proyecto-final-movil/d-s1-the-green-ladies/scss/main.scss:1
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:315:in `reformat_argument_error'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:162:in `rescue in _perform'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/funcall.rb:131:in `_perform'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:482:in `visit_variable'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `map'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-/usr/share/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-/usr/share/koala/bin/sass:22:in `load'
-/usr/share/koala/bin/sass:22:in `<main>'
-*/
 body:before {
   white-space: pre;
   font-family: monospace;
   content: "Error: wrong number of arguments (1 for 4) for `rgba'\A         on line 10 of /home/adalaber/Documentos/proyectos/the-green-ladies/proyecto-final-movil/d-s1-the-green-ladies/scss/core/_variables.scss\A         from line 1 of /home/adalaber/Documentos/proyectos/the-green-ladies/proyecto-final-movil/d-s1-the-green-ladies/scss/main.scss\A \A 5: @import 'layout/aside';\A 6: @import 'layout/grid';\A 7: @import 'layout/footer';\A 8: @import 'components/forms';\A 9: @import 'components/typography';"; }
+@charset "UTF-8";/* con opacidad *//* con opacidad *//* con opacidad */html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+ /*quitamos magenes del body*/
+  width: 100%;
+ /*ancho máximo de la caja*/
+  margin: 0px;
+}/*Header*/.fixedHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.header1 {
+  height: 60px;
+ /*altura especificada*/
+  background-color: rgba(9, 157, 141, 0.7);
+ /*color de fondo especifico*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+ /*usamos el display en flex para poder usar flexbox*/
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+ /*para que el item este en el centro del eje*/
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+ /*alinea elementos flex a lo largo del eje transversal*/;
+}
+
+h1 {
+ /*especificamos el color de la fuente, la fuente y el tamaño */
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.flex-list {
+  height: 45px;
+ /*le restamos el padding de item y el del flex-list*/
+  background-color: rgba(58, 231, 202, 0.7);
+ /*color de fondo*/
+  list-style: none;
+ /*eliminamos los estilos de la ul*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+ /*modo flexbox*/
+  margin: 0;
+ /*eliminamos el margen para que queden pegadas las dos cajas*/
+  padding: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.item,.item-miembros {
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.a-header:link {
+ /*quitamos el subrayado del enlace y ponemos color de la fuente, la fuente y el tamaño*/
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+.a-header:visited {
+ /*cuando el enlace ha sido clikado o ha sido visitado especificamos el color de la fuente, la fuente y el tamaño */
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}/*Sub menu desplegable con los miembros del equipo*/.flex-list .menu-members {
+  display: none;
+  position: absolute;
+  padding-top: 12px;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding-left: 0;
+}
+
+.flex-list .item-miembros:hover > .menu-members {
+  display: block;
+}
+
+.menu-members li {
+  position: relative;
+  background-color: #3ae7ca;
+  list-style: none;
+}
+
+.menu-members li:hover {
+  background-color: #099d8d;
+}
+
+.menu-sub ul ul a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu-sub ul ul a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}/*fin menu desplegable*//*Contenido principal*/.headerImage {
+  height: 421px;
+  background-image: url("../images/fotomovil.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.claimContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: -13%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.claim {
+  background-color: #ffffff;
+ /*rgba(255, 255, 255, 0.7)*/
+  margin: 30px;
+  padding: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.titulo {
+  color: #099d8d;
+  font-style: "Rubik", sans-serif;
+  font-size: 24px;
+  line: 45px;
+}
+
+.container {
+  color: #54585a;
+  font-style: "Open Sans", sans-serif;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+}
+
+.titles-section {
+  color: #099d8d;
+  font-size: 22px;
+  font-family: "Rubik", sans-serif;
+  margin-top: 15px;
+}
+
+.qualities-section {
+  background: #f1f1f1;
+  padding: 30px 15px 15px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #54585a;
+}
+
+.qualities-section-items {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.qualities-section-triangle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #ffffff;
+}/*contenido para describir cada una del equipo*//*cajas descripcion individual - sandra*/.member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.member__avatar {
+  width: 180px;
+  height: 180px;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: 30%;
+}
+
+.member__description {
+  margin: 15px;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  color: #54585a;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.icons {
+  margin: 15px 0px;
+}
+
+.photo {
+  width: 180px;
+  height: 180px;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: 30%;
+}
+
+.photo-img {
+  height: 100%;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 4%;
+  padding: 5px;
+  background: #eeeaeb;
+  height: 170px;
+  width: 170px;
+}
+
+.name {
+  margin: 30px 0px;
+  color: #099d8d;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.first-name {
+  margin: 15px 0px 0px 0px;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}/*cajas descripcion individual - sandra*/.list-rrhh {
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  padding: 0px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.list-item-rrhh {
+  list-style: none;
+}
+
+.list-item-rrhh::before {
+  content: "·";
+  color: #099d8d;
+  margin: 0 10px;
+}
+
+.list-item-rrhh:first-child::before {
+  content: initial;
+}
+
+.rrss:visited {
+  color: #099d8d;
+}
+
+.rrss:link {
+  color: #099d8d;
+}/*Footer*/.pie {
+  margin: 0;
+  text-align: center;
+}
+
+hr {
+  color: #85929e;
+  margin: 0;
+  padding: 0;
+}
+
+.p-footer {
+  font-family: "Rubik", sans-serif;
+  color: #bdc3c7;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.flex-list-footer {
+  padding: 0;
+  list-style: none;
+}
+
+.item-footer {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.a-footer:link {
+  text-decoration: none;
+  color: #85929e;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.a-footer:visited {
+  text-decoration: none;
+  color: #85929e;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.logo-footer1 {
+  width: 115.9px;
+  height: 45px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+ /*quitamos magenes del body*/
+  width: 100%;
+ /*ancho máximo de la caja*/
+  margin: 0px;
+}/*Header*/.fixedHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.header1 {
+  height: 60px;
+ /*altura especificada*/
+  background-color: rgba(9, 157, 141, 0.7);
+ /*color de fondo especifico*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+ /*usamos el display en flex para poder usar flexbox*/
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+ /*para que el item este en el centro del eje*/
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+ /*alinea elementos flex a lo largo del eje transversal*/;
+}
+
+h1 {
+ /*especificamos el color de la fuente, la fuente y el tamaño */
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.flex-list {
+  height: 45px;
+  background-color: rgba(58, 231, 202, 0.7);
+ /*color de fondo*/
+  list-style: none;
+ /*eliminamos los estilos de la ul*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+ /*modo flexbox*/
+  margin: 0;
+ /*eliminamos el margen para que queden pegadas las dos cajas*/
+  padding: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.item {
+  padding: 5px;
+}
+
+.a-header:link {
+ /*quitamos el subrayado del enlace y ponemos color de la fuente, la fuente y el tamaño*/
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+.a-header:visited {
+ /*cuando el enlace ha sido clikado o ha sido visitado especificamos el color de la fuente, la fuente y el tamaño */
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}/*Sub menu desplegable con los miembros del equipo*/.flex-list .menu-members {
+  display: none;
+  position: absolute;
+  padding-top: 12px;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding-left: 0;
+}
+
+.flex-list .item-miembros:hover > .menu-members {
+  display: block;
+}
+
+.menu-members li {
+  position: relative;
+  background-color: #3ae7ca;
+  list-style: none;
+}
+
+.menu-members li:hover {
+  background-color: #099d8d;
+}
+
+.menu-sub ul ul a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu-sub ul ul a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}/*fin menu desplegable*//*Contenido principal*/.contactos {
+  height: 300px;
+  background-image: url("../images/contactMovil.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.titulo {
+  color: #099d8d;
+  font-style: "Rubik", sans-serif;
+  font-size: 24px;
+  line: 45px;
+}
+
+.container {
+  color: #54585a;
+  font-style: "Open Sans", sans-serif;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.titles-section {
+  color: #099d8d;
+  font-size: 22px;
+  font-family: "Rubik", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.explicacion {
+  font-size: 18px;
+  margin: 15px;
+}
+
+.frase {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.asterisco {
+  color: #3ae7ca;
+}/*formulario*/.formulario {
+  display: block;
+  margin: 15px;
+}
+
+.formulario label {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  color: #54585a;
+}
+
+.formulario div {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.formulario input {
+  height: 45px;
+  color: #b8b8b9;
+  width: 100%;
+  border: 1px #b8b8b9 solid;
+}
+
+.formulario textarea {
+  color: #b8b8b9;
+  width: 100%;
+  border: 1px #b8b8b9 solid;
+}
+
+::-webkit-input-placeholder {
+  color: #b8b8b9;
+  padding: 10px;
+}
+
+:-ms-input-placeholder {
+  color: #b8b8b9;
+  padding: 10px;
+}
+
+::-ms-input-placeholder {
+  color: #b8b8b9;
+  padding: 10px;
+}
+
+::placeholder {
+  color: #b8b8b9;
+  padding: 10px;
+}
+
+.email::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.email:-ms-input-placeholder {
+  color: #000000;
+}
+
+.email::-ms-input-placeholder {
+  color: #000000;
+}
+
+.email::placeholder {
+  color: #000000;
+}
+
+.button {
+  font-style: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #099d8d;
+  border-radius: 3px;
+  border: 2px solid #099d8d;
+  height: 45px;
+  width: 100%;
+}
+
+.form-width {
+ /*le decimos que  esté siempre al 100% pero que nunca pase de 442px y nos ahorramos una media query*/
+  width: 100%;
+  max-width: 442px;
+  margin: 0 auto;
+}/*Footer*/.pie {
+  margin: 0;
+  text-align: center;
+}
+
+hr {
+  color: #85929e;
+  margin: 0;
+  padding: 0;
+}
+
+.p-footer {
+  font-family: "Rubik", sans-serif;
+  color: #bdc3c7;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.flex-list-footer {
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.item-footer {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.a-footer:link {
+  text-decoration: none;
+  color: #85929e;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.a-footer:visited {
+  text-decoration: none;
+  color: #85929e;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+.logo-footer1 {
+  width: 115.9px;
+  height: 45px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+ /*quitamos margenes del body*/
+  width: 100%;
+ /*ancho máximo de la caja*/
+  margin: 0px;
+}
+
+.photo-img {
+  height: 100%;
+  background-size: cover;
+  margin: 0;
+  border-radius: 4%;
+  padding: 5px;
+  background: #EEEAEB;
+  height: 268px;
+ /*268px web*/
+  width: 268px;
+ /*268px web*/;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+ /*quitamos margenes del body*/
+  width: 100%;
+ /*ancho máximo de la caja*/
+  margin: 0px;
+}
+
+@media all and (min-width: 768px) {
+  .flex-list .menu-members {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+
+  .menu-members li {
+    position: relative;
+    background-color: #099d8d;
+    list-style: none;
+  }
+
+  .menu-members li:hover {
+    background-color: #3ae7ca;
+  }
+
+  .claimContainer {
+    bottom: 0%;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .claim {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0px;
+  }
+
+  .flex-list .menu-members {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+
+  .menu-members li {
+    position: relative;
+    background-color: #099d8d;
+    list-style: none;
+  }
+
+  .menu-members li:hover {
+    background-color: #3ae7ca;
+  }
+
+  html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body {
+ /*quitamos magenes del body*/
+    width: 100%;
+ /*ancho máximo de la caja*/
+    margin: 0px;
+  }
+
+  .fixedHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #099d8d;
+    padding: 0 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .flex-list {
+    background-color: #099d8d;
+  }
+
+  .menu-sub ul ul {
+    left: 80%;
+  }
+
+  .qualities-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 45px 45px 60px 45px;
+  }
+
+  .qualities-section-items {
+    text-align: center;
+    margin-bottom: auto;
+    width: 50%;
+  }
+
+  .titles-section {
+    padding-bottom: 15px;
+    margin: auto;
+  }
+
+  .paragraph-1 {
+    padding-right: 15px;
+    margin: auto;
+  }
+
+  .paragraph-2 {
+    padding-left: 15px;
+    margin: auto;
+  }
+
+  .pie {
+    position: relative;
+    margin: 0 20px;
+  }
+
+  .p-footer {
+    text-align: left;
+    top: 30px;
+    margin-left: 30px;
+  }
+
+  .nav-footer {
+    position: absolute;
+    left: 80%;
+    top: 25px;
+    text-align: right;
+  }
+
+  .item-footer {
+    padding-bottom: 10px;
+  }
+
+  .logo-footer {
+    margin: 15px 20px 60px 30px;
+    text-align: left;
+  }
+
+  .button-container {
+    width: 100%;
+    text-align: right;
+  }
+
+  .little-button {
+    width: 206px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1239px) {
+  .headerImage {
+    background-image: url("../images/fototablet.jpg");
+  }
+
+  .contactos {
+    background-image: url("../images/contactMovil.jpg");
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .p-footer {
+    text-align: left;
+    top: 30px;
+    margin-left: 100px;
+  }
+
+  .logo-footer {
+    margin: 15px 20px 60px 100px;
+    text-align: left;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .qualities-section {
+    padding: 45px 138px 60px 138px;
+  }
+
+  .paragraph-1 {
+    padding-right: 22.5px;
+    margin: auto;
+  }
+
+  .paragraph-2 {
+    padding-left: 22.5px;
+    margin: auto;
+  }
+
+  .member-left {
+    display: grid;
+    grid-template-columns: 400px 439px;
+    grid-template-rows: 1fr;
+  }
+
+  .member-left .photo {
+    grid-column: 1 / 2;
+  }
+
+  .member-left .member__description {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    text-align: left;
+    margin-left: 45px;
+  }
+
+  .member-left .photo-img {
+    height: 100%;
+    background-size: cover;
+    margin: 0px;
+    border-radius: 4%;
+    padding: 5px;
+    background: #EEEAEB;
+    height: 268px;
+ /*268px web*/
+    width: 268px;
+ /*268px web*/;
+  }
+
+  .list-rrhh.left {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .member__right {
+    display: grid;
+    grid-template-columns: 439px 278px;
+    grid-template-rows: 1fr;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-right: 200px;
+  }
+
+  .member__right .photo {
+    grid-column: 2;
+  }
+
+  .member__right .member__description {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: right;
+  }
+
+  .list-rrhh.right {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .container {
+    width: 601px;
+    margin: auto;
+    padding: 45px 45px 60px 45px;
+  }
+
+  .form-width {
+    max-width: 601px;
+  }
+
+  .formulario {
+    margin: 0;
+  }
+
+  .form-email-tlf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .email {
+    width: 395px;
+  }
+
+  .telephone {
+    width: 162px;
+  }
+}
+
+@media all and (min-width: 1240px) {
+  .headerImage {
+    background-image: url("../images/fotoordena.jpg");
+  }
+
+  .contactos {
+    background-image: url("../images/contactMovil.jpg");
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

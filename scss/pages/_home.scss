@@ -98,18 +98,18 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 /*Contenido principal*/
 .headerImage {
   height:421px;
-  background-image: url("../fotos/fotomovil.jpg");
+  background-image: url("../images/fotomovil.jpg");
   background-size: cover;
   position: relative;
 }
 @media all and (min-width:768px) and (max-width:1239px){
   .headerImage{
-    background-image: url("../fotos/fototablet.jpg");
+    background-image: url("../images/fototablet.jpg");
   }
 }
 @media all and (min-width:1240px){
   .headerImage{
-    background-image: url("../fotos/fotoordena.jpg");
+    background-image: url("../images/fotoordena.jpg");
   }
 }
 .claimContainer{
