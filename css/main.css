@@ -1,7 +1,7 @@
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: wrong number of arguments (1 for 4) for `rgba'\A         on line 10 of /home/adalaber/Documentos/proyectos/the-green-ladies/proyecto-final-movil/d-s1-the-green-ladies/scss/core/_variables.scss\A         from line 1 of /home/adalaber/Documentos/proyectos/the-green-ladies/proyecto-final-movil/d-s1-the-green-ladies/scss/main.scss\A \A 5: @import 'layout/aside';\A 6: @import 'layout/grid';\A 7: @import 'layout/footer';\A 8: @import 'components/forms';\A 9: @import 'components/typography';"; }
+}
 @charset "UTF-8";/* con opacidad *//* con opacidad *//* con opacidad */html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
