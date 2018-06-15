@@ -1,7 +1,3 @@
-body:before {
-  white-space: pre;
-  font-family: monospace;
-}
 @charset "UTF-8";/* con opacidad *//* con opacidad *//* con opacidad */html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -874,7 +870,7 @@ body {
   }
 
   .contactos {
-    background-image: url("../images/contactMovil.jpg");
+    background-image: url("../images/contactTablet.jpg");
   }
 }
 
@@ -1014,7 +1010,7 @@ body {
   }
 
   .contactos {
-    background-image: url("../images/contactMovil.jpg");
+    background-image: url("../images/contactWeb.jpg");
   }
 }
 
