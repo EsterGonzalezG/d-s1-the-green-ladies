@@ -6,7 +6,7 @@ body{/*quitamos magenes del body*/
   margin: 0px;
 }
 /*Header*/
-.fixedHeader{
+.fixedHeader {
   position: fixed;
   top: 0;
   left: 0;
@@ -199,6 +199,11 @@ position: relative;
     border: 2px solid $color01;
     height: 45px;
     width: 100%;
+    transition: background-color ease 1s;
+
+    &:hover {
+      background-color: $color04;
+    }
    }
 .form-width { /*le decimos que  esté siempre al 100% pero que nunca pase de 442px y nos ahorramos una media query*/
     width: 100%;

@@ -616,6 +616,12 @@ h1 {
   border: 2px solid #099d8d;
   height: 45px;
   width: 100%;
+  -webkit-transition: background-color ease 1s;
+  transition: background-color ease 1s;
+}
+
+.button:hover {
+  background-color: #000000;
 }
 
 .form-width {
