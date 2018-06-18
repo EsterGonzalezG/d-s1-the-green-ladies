@@ -1017,7 +1017,6 @@ body {
     display: grid;
     grid-template-columns: 300px 450px;
     grid-template-rows: 1fr;
-    background-color: green;
   }
 
   .member__right {
@@ -1028,13 +1027,21 @@ body {
     -ms-flex-pack: end;
     justify-content: flex-end;
     margin-right: 200px;
-    background-color: red;
   }
 
-  .photo {
+  .member-left.photo {
     width: 278px;
     height: 278px;
     padding: 0;
+    margin-right: 25px;
+    border-radius: 30%;
+  }
+
+  .member__right.photo {
+    width: 278px;
+    height: 278px;
+    padding: 0;
+    margin: 0;
     border-radius: 30%;
   }
 
