@@ -1,60 +1,51 @@
-@media all and (min-width: 1200px){
+@media all and (min-width: 768px){
 
-.member-left {
-  display: grid;
-  grid-template-columns: 400px 439px;
-  grid-template-rows:1fr;
-
-  .photo{
-    grid-column: 1 / 2;
+  .member-left {
+    display: grid;
+    grid-template-columns: 400px 439px;
+    grid-template-rows:1fr;
+    .photo{
+      grid-column: 1 / 2;
+    }
+    .member__description{
+      grid-column: 2 / 3;
+      grid-row: 1;
+      text-align: left;
+      margin-left: 45px;
+    }
   }
-  .member__description{
-    grid-column: 2 / 3;
-    grid-row: 1;
-    text-align: left;
-margin-left: 45px;
+  .list-rrhh.left{
+    padding: 0;
+    display: flex;
+    justify-content:flex-start;
   }
-  .photo-img {
-    height: 100%;
-    background-size: cover;
-    margin: 0px;
-    border-radius: 4%;
-    padding: 5px;
-    background: #EEEAEB;
-    height: 268px; /*268px web*/
-    width: 268px; /*268px web*/
+  .member__right{
+    display: grid;
+    grid-template-columns: 439px 278px;
+    grid-template-rows:1fr;
+    justify-content: flex-end;
+    margin-right: 200px;
+    .photo{
+      grid-column: 2;
+    }
+    .member__description{
+      grid-column: 1;
+      grid-row: 1;
+      text-align: right;
+    }
   }
-
-}
-.list-rrhh.left{
-padding: 0;
-display: flex;
-justify-content:flex-start;
-}
-
-.member__right{
-  display: grid;
-  grid-template-columns: 439px 278px;
-  grid-template-rows:1fr;
-  justify-content: flex-end;
-margin-right: 200px;
-
-  .photo{
-    grid-column: 2;
-
-  }
-  .member__description{
-    grid-column: 1;
-    grid-row: 1;
-    text-align: right;
-
+  .list-rrhh.right{
+    padding: 0;
+    display: flex;
+    justify-content:flex-end;
   }
 }
-.list-rrhh.right{
-padding: 0;
-display: flex;
-justify-content:flex-end;
-}
+.photo {
+  width: 205px;
+  height: 205px;
+  padding: 0;
+  margin: 0;
+  border-radius: 30%;
 }
 .photo-img {
   height: 100%;
@@ -63,6 +54,25 @@ justify-content:flex-end;
   border-radius: 4%;
   padding: 5px;
   background: #EEEAEB;
-  height: 268px; /*268px web*/
-  width: 268px; /*268px web*/
+  height: 195px;
+  width: 195px;
+}
+@media all and (min-width: 1280px){
+  .photo {
+    width: 278px;
+    height: 278px;
+    padding: 0;
+    margin: 0;
+    border-radius: 30%;
+  }
+  .photo-img {
+    height: 100%;
+    background-size: cover;
+    margin: 0;
+    border-radius: 4%;
+    padding: 5px;
+    background: #EEEAEB;
+    height: 268px;
+    width: 268px;
+  }
 }
