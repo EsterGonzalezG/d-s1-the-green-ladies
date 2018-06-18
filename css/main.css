@@ -167,8 +167,7 @@ h1 {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  padding: 30px;
-  margin: 0;
+  margin: 0 30px;
 }
 
 .titles-section {
@@ -497,7 +496,7 @@ h1 {
   line: 45px;
 }
 
-.container {
+.container.contact {
   color: #54585a;
   font-style: "Open Sans", sans-serif;
   font-size: 16px;
@@ -513,7 +512,7 @@ h1 {
   flex-direction: column;
   text-align: center;
   padding: 0px;
-  margin: 0px;
+  margin-top: 45px;
 }
 
 .titles-section {
@@ -829,6 +828,10 @@ body {
 
   .menu-members li:hover {
     background-color: #3ae7ca;
+  }
+
+  .titles-section {
+    margin-top: 0px;
   }
 
   html {
