@@ -21,7 +21,7 @@ body {/*quitamos margenes del body*/
   .container {
     width: 601px;
     margin: auto;
-    padding: 45px 45px 60px 45px;
+    padding: 45px 45px 0px 45px;
   }
 
   .form-width {
