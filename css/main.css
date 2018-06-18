@@ -621,7 +621,7 @@ h1 {
 }
 
 .button:hover {
-  background-color: #000000;
+  background-color: rgba(58, 231, 202, 0.7);
 }
 
 .form-width {
