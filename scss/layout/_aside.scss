@@ -16,10 +16,6 @@ body{/*quitamos margenes del body*/
     margin-bottom: auto;
     width: 50%;
   }
-  .titles-section {
-    padding-bottom: 15px;
-    margin: auto;
-  }
   .paragraph-1 {
     padding-right: 15px;
     margin: auto;
@@ -32,6 +28,10 @@ body{/*quitamos margenes del body*/
 @media all and (min-width: 1200px) {
   .qualities-section {
     padding: 45px 138px 60px 138px;
+  }
+  .titles-section {
+    padding-bottom: 15px;
+    margin: auto;
   }
   .paragraph-1 {
     padding-right: 22.5px;

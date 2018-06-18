@@ -45,12 +45,16 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   color: $color08;
   font-family: $font-family01;
   font-size: 16px;
+  padding-bottom: 15px;
+  margin: auto;
 }
 .a-header:visited{/*cuando el enlace ha sido clikado o ha sido visitado especificamos el color de la fuente, la fuente y el tamaño */
   text-decoration: none;
   color: $color08;
   font-family: $font-family01;
   font-size: 16px;
+  padding-bottom: 15px;
+  margin: auto;
 }
 /*Sub menu desplegable con los miembros del equipo*/
 .flex-list .menu-members{
@@ -133,7 +137,7 @@ position: relative;
   color: $color01;
   font-size: 22px;
   font-family: $font-family01;
-  margin-top:30px;
+  margin-top: 30px;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -145,11 +149,11 @@ position: relative;
   font-size: 14px;
   margin-bottom: 40px;
 }
-.asterisco{
+.asterisco {
   color: $color07;
 }
 /*formulario*/
-.formulario{
+.formulario {
   display: block;
   margin:15px;
 }
