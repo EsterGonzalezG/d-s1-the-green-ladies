@@ -881,7 +881,7 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding: 45px 45px 0px 45px;
+    padding: 45px 45px 60px 45px;
   }
 
   .qualities-section-items {
@@ -962,7 +962,7 @@ body {
 
 @media all and (min-width: 1200px) {
   .qualities-section {
-    padding: 45px 138px 0px 138px;
+    padding: 45px 138px 60px 138px;
   }
 
   .titles-section {
