@@ -203,10 +203,7 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   padding: 0;
   margin: 0 auto;
   border-radius: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+  }
 .member__description{
   margin: 15px;
   font-family: $font-family01;
@@ -218,7 +215,7 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
 .icons{
   margin: 15px 0px
 }
-.smallPhoto {
+.photo-img {
   height: 100%;
   background-size: cover;
   margin: 0 auto;

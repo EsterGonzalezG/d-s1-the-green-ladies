@@ -1,17 +1,15 @@
 @media all and (min-width: 768px){
-
   .member-left {
     display: grid;
-    grid-template-columns: 400px 439px;
+    grid-template-columns: 250px 400px;
     grid-template-rows:1fr;
-    .photo{
+    .photo {
       grid-column: 1 / 2;
     }
     .member__description{
       grid-column: 2 / 3;
       grid-row: 1;
       text-align: left;
-      margin-left: 45px;
     }
   }
   .list-rrhh.left{
@@ -21,7 +19,7 @@
   }
   .member__right{
     display: grid;
-    grid-template-columns: 439px 278px;
+    grid-template-columns: 400px 250px;
     grid-template-rows:1fr;
     justify-content: flex-end;
     margin-right: 200px;
@@ -39,36 +37,61 @@
     display: flex;
     justify-content:flex-end;
   }
-}
-.photo {
-  width: 205px;
-  height: 205px;
-  padding: 0;
-  margin: 0;
-  border-radius: 30%;
-}
-.photo-img {
-  height: 100%;
-  background-size: cover;
-  margin: 0;
-  border-radius: 4%;
-  padding: 5px;
-  background: #EEEAEB;
-  height: 195px;
-  width: 195px;
-}
-@media all and (min-width: 1280px){
-  .photo {
-    width: 278px;
-    height: 278px;
+  .member-left .photo {
+    width: 205px;
+    height: 205px;
     padding: 0;
     margin: 0;
+    margin-right: 45px;
+    border-radius: 30%;
+  }
+  .member__right .photo {
+    width: 205px;
+    height: 205px;
+    padding: 0;
+    margin: 0;
+    margin-left: 45px;
     border-radius: 30%;
   }
   .photo-img {
     height: 100%;
     background-size: cover;
     margin: 0;
+    border-radius: 4%;
+    margin-top: 15px;
+    padding: 5px;
+    background: #EEEAEB;
+    height: 195px;
+    width: 195px;
+  }
+}
+@media all and (min-width: 1280px){
+  .member-left {
+    display: grid;
+    grid-template-columns: 300px 450px;
+    grid-template-rows:1fr;
+    background-color: green;
+  }
+  .member__right{
+    display: grid;
+    grid-template-columns: 450px 300px;
+    grid-template-rows:1fr;
+    justify-content: flex-end;
+    margin-right: 200px;
+    background-color: red;
+  }
+  .photo {
+    width: 278px;
+    height: 278px;
+    padding: 0;
+
+    border-radius: 30%;
+  }
+  .photo-img {
+    height: 100%;
+    background-size: cover;
+    margin: 0;
+    margin-top: 20px;
     border-radius: 4%;
     padding: 5px;
     background: #EEEAEB;

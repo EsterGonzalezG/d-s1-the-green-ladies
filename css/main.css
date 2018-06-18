@@ -232,16 +232,6 @@ h1 {
   padding: 0;
   margin: 0 auto;
   border-radius: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 .member__description {
@@ -257,7 +247,7 @@ h1 {
   margin: 15px 0px;
 }
 
-.smallPhoto {
+.photo-img {
   height: 100%;
   background-size: cover;
   margin: 0 auto;
@@ -696,25 +686,6 @@ body {
   margin: 0px;
 }
 
-.photo {
-  width: 205px;
-  height: 205px;
-  padding: 0;
-  margin: 0;
-  border-radius: 30%;
-}
-
-.photo-img {
-  height: 100%;
-  background-size: cover;
-  margin: 0;
-  border-radius: 4%;
-  padding: 5px;
-  background: #EEEAEB;
-  height: 195px;
-  width: 195px;
-}
-
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -753,6 +724,92 @@ body {
   .claim {
     background-color: rgba(255, 255, 255, 0.7);
     margin: 0px;
+  }
+
+  .member-left {
+    display: grid;
+    grid-template-columns: 250px 400px;
+    grid-template-rows: 1fr;
+  }
+
+  .member-left .photo {
+    grid-column: 1 / 2;
+  }
+
+  .member-left .member__description {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    text-align: left;
+  }
+
+  .list-rrhh.left {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .member__right {
+    display: grid;
+    grid-template-columns: 400px 250px;
+    grid-template-rows: 1fr;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-right: 200px;
+  }
+
+  .member__right .photo {
+    grid-column: 2;
+  }
+
+  .member__right .member__description {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: right;
+  }
+
+  .list-rrhh.right {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .member-left .photo {
+    width: 205px;
+    height: 205px;
+    padding: 0;
+    margin: 0;
+    margin-right: 45px;
+    border-radius: 30%;
+  }
+
+  .member__right .photo {
+    width: 205px;
+    height: 205px;
+    padding: 0;
+    margin: 0;
+    margin-left: 45px;
+    border-radius: 30%;
+  }
+
+  .photo-img {
+    height: 100%;
+    background-size: cover;
+    margin: 0;
+    border-radius: 4%;
+    margin-top: 15px;
+    padding: 5px;
+    background: #EEEAEB;
+    height: 195px;
+    width: 195px;
   }
 
   .flex-list .menu-members {
@@ -836,63 +893,6 @@ body {
   .paragraph-2 {
     padding-left: 15px;
     margin: auto;
-  }
-
-  .member-left {
-    display: grid;
-    grid-template-columns: 400px 439px;
-    grid-template-rows: 1fr;
-  }
-
-  .member-left .photo {
-    grid-column: 1 / 2;
-  }
-
-  .member-left .member__description {
-    grid-column: 2 / 3;
-    grid-row: 1;
-    text-align: left;
-    margin-left: 45px;
-  }
-
-  .list-rrhh.left {
-    padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-
-  .member__right {
-    display: grid;
-    grid-template-columns: 439px 278px;
-    grid-template-rows: 1fr;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    margin-right: 200px;
-  }
-
-  .member__right .photo {
-    grid-column: 2;
-  }
-
-  .member__right .member__description {
-    grid-column: 1;
-    grid-row: 1;
-    text-align: right;
-  }
-
-  .list-rrhh.right {
-    padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
   }
 
   .pie {
@@ -1013,11 +1013,28 @@ body {
 }
 
 @media all and (min-width: 1280px) {
+  .member-left {
+    display: grid;
+    grid-template-columns: 300px 450px;
+    grid-template-rows: 1fr;
+    background-color: green;
+  }
+
+  .member__right {
+    display: grid;
+    grid-template-columns: 450px 300px;
+    grid-template-rows: 1fr;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-right: 200px;
+    background-color: red;
+  }
+
   .photo {
     width: 278px;
     height: 278px;
     padding: 0;
-    margin: 0;
     border-radius: 30%;
   }
 
@@ -1025,6 +1042,7 @@ body {
     height: 100%;
     background-size: cover;
     margin: 0;
+    margin-top: 20px;
     border-radius: 4%;
     padding: 5px;
     background: #EEEAEB;
