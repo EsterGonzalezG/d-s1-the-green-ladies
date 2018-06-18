@@ -191,6 +191,9 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   border-top: 20px solid $color08;
 }
 /*contenido para describir cada una del equipo*/
+.memberContainer{
+margin: 0 30px;
+}
 .member{
   display: flex;
   padding: 0px;
@@ -202,7 +205,6 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   height: 180px;
   padding: 0;
   margin: 0 auto;
-  border-radius: 30%;
   }
 .member__description{
   margin: 15px;
@@ -216,12 +218,9 @@ h1{/*especificamos el color de la fuente, la fuente y el tamaño */
   margin: 15px 0px
 }
 .photo-img {
-  height: 100%;
-  background-size: cover;
   margin: 0 auto;
   border-radius: 4%;
-  padding: 5px;
-  background: $color03;
+  border: solid 5px #EEEAEB;
   height: 170px;
   width: 170px;
 }

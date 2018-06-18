@@ -212,7 +212,11 @@ h1 {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 20px solid #ffffff;
-}/*contenido para describir cada una del equipo*/.member {
+}/*contenido para describir cada una del equipo*/.memberContainer {
+  margin: 0 30px;
+}
+
+.member {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,7 +235,6 @@ h1 {
   height: 180px;
   padding: 0;
   margin: 0 auto;
-  border-radius: 30%;
 }
 
 .member__description {
@@ -248,12 +251,9 @@ h1 {
 }
 
 .photo-img {
-  height: 100%;
-  background-size: cover;
   margin: 0 auto;
   border-radius: 4%;
-  padding: 5px;
-  background: #eeeaeb;
+  border: solid 5px #EEEAEB;
   height: 170px;
   width: 170px;
 }
@@ -736,10 +736,16 @@ body {
     margin: 0px;
   }
 
+  .memberContainer {
+    width: 680px;
+    margin: 0 auto;
+  }
+
   .member-left {
     display: grid;
-    grid-template-columns: 250px 400px;
+    grid-template-columns: 215px 445px;
     grid-template-rows: 1fr;
+    grid-gap: 30px;
   }
 
   .member-left .photo {
@@ -764,12 +770,12 @@ body {
 
   .member__right {
     display: grid;
-    grid-template-columns: 400px 250px;
+    grid-template-columns: 445px 215px;
     grid-template-rows: 1fr;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    margin-right: 200px;
+    grid-gap: 30px;
   }
 
   .member__right .photo {
@@ -792,34 +798,20 @@ body {
     justify-content: flex-end;
   }
 
-  .member-left .photo {
-    width: 205px;
-    height: 205px;
+  .photo {
+    width: 100%;
+    height: 100%;
     padding: 0;
     margin: 0;
-    margin-right: 45px;
-    border-radius: 30%;
-  }
-
-  .member__right .photo {
-    width: 205px;
-    height: 205px;
-    padding: 0;
-    margin: 0;
-    margin-left: 45px;
-    border-radius: 30%;
   }
 
   .photo-img {
-    height: 100%;
-    background-size: cover;
+    width: 205px;
+    height: 205px;
     margin: 0;
     border-radius: 4%;
     margin-top: 15px;
-    padding: 5px;
-    background: #EEEAEB;
-    height: 195px;
-    width: 195px;
+    border: solid 5px #EEEAEB;
   }
 
   .flex-list .menu-members {
@@ -1017,48 +1009,35 @@ body {
     background-image: url("../images/fotoordena.jpg");
   }
 
+  .memberContainer {
+    width: 940px;
+    margin: 0 auto;
+  }
+
   .member-left {
     display: grid;
-    grid-template-columns: 300px 450px;
+    grid-template-columns: 288px 445px;
     grid-template-rows: 1fr;
+    grid-gap: 45px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .member__right {
     display: grid;
-    grid-template-columns: 450px 300px;
+    grid-template-columns: 450px 288px;
     grid-template-rows: 1fr;
+    grid-gap: 45px;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    margin-right: 200px;
-  }
-
-  .member-left.photo {
-    width: 278px;
-    height: 278px;
-    padding: 0;
-    margin-right: 25px;
-    border-radius: 30%;
-  }
-
-  .member__right.photo {
-    width: 278px;
-    height: 278px;
-    padding: 0;
-    margin: 0;
-    border-radius: 30%;
   }
 
   .photo-img {
-    height: 100%;
-    background-size: cover;
-    margin: 0;
+    width: 278px;
+    height: 278px;
     margin-top: 20px;
-    border-radius: 4%;
-    padding: 5px;
-    background: #EEEAEB;
-    height: 268px;
-    width: 268px;
   }
 
   .contactos {
