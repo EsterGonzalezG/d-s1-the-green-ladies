@@ -101,6 +101,7 @@ h1 {
   position: relative;
   background-color: #3ae7ca;
   list-style: none;
+  padding: 5px 5px;
 }
 
 .menu-members li:hover {
@@ -718,6 +719,7 @@ body {
     position: relative;
     background-color: #099d8d;
     list-style: none;
+    right: 80px;
   }
 
   .menu-members li:hover {
@@ -1013,6 +1015,13 @@ body {
 }
 
 @media all and (min-width: 1240px) {
+  .menu-members li {
+    position: relative;
+    background-color: #099d8d;
+    list-style: none;
+    left: 0px;
+  }
+
   .headerImage {
     background-image: url("../images/fotoordena.jpg");
   }
